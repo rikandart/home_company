@@ -12,6 +12,7 @@ SOURCES += \
     company.cpp \
     department.cpp \
     employee.cpp \
+    forms/mainwindow.cpp \
     handler.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -19,21 +20,25 @@ SOURCES += \
     src/department.cpp \
     src/employee.cpp \
     src/handler.cpp \
-    src/main.cpp
+    src/main.cpp \
+    src/startupwindow.cpp
 
 HEADERS += \
     company.h \
     department.h \
     employee.h \
+    forms/mainwindow.h \
     handler.h \
     mainwindow.h \
     src/company.h \
     src/department.h \
     src/employee.h \
-    src/handler.h
+    src/handler.h \
+    src/startupwindow.h
 
 FORMS += \
     mainwindow.ui \
+    src/startupwindow.ui \
     ui/mainwindow.ui
 
 TRANSLATIONS += \

@@ -5,6 +5,7 @@ StartupWindow::StartupWindow(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::StartupWindow)
 {
+    setWindowFlags(Qt::Dialog | Qt::MSWindowsFixedSizeDialogHint);
     ui->setupUi(this);
 }
 

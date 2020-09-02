@@ -1,14 +1,14 @@
 #include "startupwindow.h"
 #include "ui_startupwindow.h"
 
-startupwindow::startupwindow(QWidget *parent) :
+StartupWindow::StartupWindow(QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::startupwindow)
+    ui(new Ui::StartupWindow)
 {
     ui->setupUi(this);
 }
 
-startupwindow::~startupwindow()
+StartupWindow::~StartupWindow()
 {
     delete ui;
 }

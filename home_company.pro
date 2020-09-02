@@ -14,17 +14,27 @@ SOURCES += \
     employee.cpp \
     handler.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    src/company.cpp \
+    src/department.cpp \
+    src/employee.cpp \
+    src/handler.cpp \
+    src/main.cpp
 
 HEADERS += \
     company.h \
     department.h \
     employee.h \
     handler.h \
-    mainwindow.h
+    mainwindow.h \
+    src/company.h \
+    src/department.h \
+    src/employee.h \
+    src/handler.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    ui/mainwindow.ui
 
 TRANSLATIONS += \
     home_company_ru_RU.ts
